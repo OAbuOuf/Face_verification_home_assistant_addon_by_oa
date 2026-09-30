@@ -1,0 +1,20 @@
+name: "Face Verifreak"
+version: "0.0.1"
+slug: "oa_face_verification"
+description: "THIS IS A FACE VERIFICATION ADDON"
+arch:
+  - amd64
+
+options:
+  mqtt_host_ip: "core-mosquitto"
+  mqtt_port: 1883
+  mqtt_username: ""
+  mqtt_password: ""
+  camera_source: ""
+
+schema:
+  mqtt_host_ip: str
+  mqtt_port: port
+  mqtt_username: str
+  mqtt_password: password
+  camera_source: str
